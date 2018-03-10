@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://corehtml5canvas.com/code-live/ch05/example-5.9/example.html -->
+<html class="gr__corehtml5canvas_com"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+     <title>Using requestAnimationFrame()</title>
+
+      <style>
+         body {
+            background: #dddddd;
+         }
+
+         /* #canvas1 {
+            background: #ffffff;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-top: 10px;
+            -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+         }
+
+         #canvas2 {
+            background: #ffffff;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-top: 10px;
+            -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+         } */
+         #controls {
+            margin-top: 10px;
+            margin-left: 15px;
+         }
+      </style>
+   </head>
+
+   <body data-gr-c-s-loaded="true">
+      <div id="controls">
+         <input id="animateButton" type="button" value="Start">
+      </div>
+
+      <canvas id="canvas1" width="750" height="650"
+        style="position: absolute; left: 20; top: 60; z-index: 0;
+        background: #ffffff;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+        -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+        box-shadow: 3px 3px 6px rgba(0,0,0,0.5);">
+      </canvas>
+      <canvas id="canvas2" width="750" height="700"
+        style="position: absolute; left: 20; top: 60; z-index: 1;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+        -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+        box-shadow: 3px 3px 6px rgba(0,0,0,0.5);">
+      </canvas>
+
+      <script src="./example_files/requestNextAnimationFrame.js"></script>
+      <script src="./example_files/animation.js"></script>
+      <script>
+      window.onload = function() {
+        addDevices();
+      }
+      </script>
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
